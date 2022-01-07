@@ -1,6 +1,6 @@
 # The basics of unix sockets
 
-This repository serves as a reference for [this tutorial blogpost](emmanuelbosquet.com)
+This repository serves as a reference for [this tutorial blogpost](https://emmanuelbosquet.com/2022/whatsaunixsocket/)
 
 ## How to run
 
