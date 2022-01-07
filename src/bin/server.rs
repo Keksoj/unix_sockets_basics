@@ -18,12 +18,12 @@ fn main() -> anyhow::Result<()> {
 
     // put the server logic in a loop to accept several connections
     loop {
-        let (mut unix_stream, socket_address) = unix_listener
+        let (unix_stream, _socket_address) = unix_listener
             .accept()
             .context("Failed at accepting a connection on the unix listener")?;
         handle_stream(unix_stream)?;
     }
-    Ok(())
+    // Ok(())
 }
 
 fn handle_stream(mut unix_stream: UnixStream) -> anyhow::Result<()> {

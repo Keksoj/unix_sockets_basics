@@ -1,5 +1,5 @@
 use std::io::{Read, Write};
-use std::os::unix::net::{UnixListener, UnixStream};
+use std::os::unix::net::UnixStream;
 
 use anyhow::Context;
 

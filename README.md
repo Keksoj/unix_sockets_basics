@@ -7,7 +7,6 @@ This repository serves as a reference for [this tutorial blogpost](emmanuelbosqu
 [Install Rust and Cargo](https://www.rust-lang.org/tools/install),
 and then do:
 
-    rm mysocket
     cargo run --bin server
 
 And in a separate terminal, run the client:
